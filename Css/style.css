@@ -1,0 +1,38 @@
+.inline-block {
+    background-color: #001d31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    z-index: 10; 
+    position: relative; 
+    font-size: 18px;
+    color: white;
+  }
+
+.logo img {
+    width: 20%;
+    height: auto;
+    margin-right: 2%;
+    border-radius: 100%;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  .nav-button-sub-container {
+    display: flex;
+  }
+
+.herocontent {
+  outline: 1px solid red;
+  background-image: url(../Images/water\ hero\ image.jpg)
+}
+
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
