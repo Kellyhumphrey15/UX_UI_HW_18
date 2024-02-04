@@ -1,22 +1,30 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #001d31;
+}
+
+
 .inline-block {
-    background-color: #001d31;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    z-index: 10; 
-    position: relative; 
-    font-size: 18px;
-    color: white;
+   background-color: #001d31;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+   z-index: 10; 
+   position: relative; 
+   font-size: 18px;
+   outline: 1px solid red;
   }
 
-.logo img {
+.logo-img {
     width: 20%;
     height: auto;
     margin-right: 2%;
     border-radius: 100%;
   }
-
 .logo {
     display: flex;
     align-items: center;
@@ -27,12 +35,59 @@
 
 .herocontent {
   outline: 1px solid red;
-  background-image: url(../Images/water\ hero\ image.jpg)
+  background-image: url(../Images/water1.jpg);
+  text-align: center;
 }
 
+.Work {
+  outline: 1px solid red;
+   width: 50%;
+   display: flex;
+   flex-direction: column;  
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 20px; 
+   margin: auto; 
+   margin-bottom: 5%;
+}
 
-  footer ul {
+.notWork {
+   width: 50%;
+   display: flex;
+   flex-direction: column; 
+  justify-content: space between;
+   align-items: center; 
+   text-align: center;
+   padding: 30px;
+   margin-bottom: 15%; 
+   margin: auto;
+  outline: 1px solid red;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  outline: 2px solid white;
+  margin: auto;
+  margin-bottom: 10%;
+  height: 40px;
+  width: 30%;
+}
+.footer {
+  outline: 1px solid red;
+  margin-top: 10%;
+  align-items: center; 
+  text-align: center;
+  font-size: 24px;
+}
+.get {
+  font-size: 35px;
+  font-style: fenix;
+}
+
+  footer ul{
+    outline: 1px solid red;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
   }
