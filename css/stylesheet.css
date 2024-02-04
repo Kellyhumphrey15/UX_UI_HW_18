@@ -35,8 +35,13 @@ body {
 
 .herocontent {
   outline: 1px solid red;
-  background-image: url(../Images/water1.jpg);
   text-align: center;
+}
+
+.heroimage {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .Work {
@@ -49,6 +54,20 @@ body {
    margin-bottom: 20px; 
    margin: auto; 
    margin-bottom: 5%;
+}
+
+.parent {
+  display: grid;
+  margin: 0px 5%;
+  grid-gap: 10px;
+  grid-template-rows: 300px,300px,300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "mountain mountain2 cococaybeach"
+  "Haitihmountain usinhaiti mydog"
+  "mycat cruisingship shipwindow"
+  ;
+  
 }
 
 .notWork {
