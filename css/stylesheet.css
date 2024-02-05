@@ -69,8 +69,7 @@ h2 {
 
 .parent {
   display: grid;
-  margin: 0px 5%;
-  grid-gap: 10px;
+  margin: 15%;
   grid-template-rows: 300px,300px,300px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
@@ -81,11 +80,18 @@ h2 {
   
 }
 
+img {
+  max-width: 300px;
+  max-height: 400px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .notWork {
    width: 50%;
    display: flex;
    flex-direction: column; 
-   justify-content: space between;
+   justify-content: space-between;
    align-items: center; 
    text-align: center;
    padding: 30px;
@@ -100,6 +106,7 @@ button {
   outline: 2px solid white;
   margin: auto;
   margin-bottom: 10%;
+  margin-top: 5%;
   height: 40px;
   width: 30%;
 }
@@ -108,6 +115,7 @@ button {
   margin-top: 10%;
   align-items: center; 
   text-align: center;
+  z-index: 10; 
   font-size: 24px;
   background-image: url(https://images.unsplash.com/photo-1559825481-12a05cc00344?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2NlYW58ZW58MHx8MHx8fDA%3D);
   background-repeat: no-repeat;
@@ -117,26 +125,25 @@ button {
 
 .get {
   font-size: 35px;
-  font-style: fenix;
+  font-family: fantasy;
 }
 
 footer ul {
    outline: 1px solid red;
    display: flex;
    justify-content: space-between;
-    
- }
-
+}
 
 @media only screen and (max-width: 600px) {
-  .parent {
-   flex-direction: column;
-   grid-template-rows: 300px, 300px, 300px, 300px, 300px;
+ .parent {
+   grid-template-rows: 300px,300px,300px,300px,300px;
    grid-template-columns: 1fr 1fr;
    grid-template-areas: 
-   "mountain mountain2"
-   "cococaybeach Haitimountain"
-   "cruiseshipdeck mydog"
-   "mycat cruisingship"
-   "shipwindow shipwindow";
-}}
+    "mountain mountain2"
+    "cococaybeach Haitimountain"
+    "cruiseshipdeck mydog"
+    "mycat cruisingship"
+    "shipwindow shipwindow"
+  ;
+  }
+}
