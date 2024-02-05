@@ -109,6 +109,10 @@ button {
   align-items: center; 
   text-align: center;
   font-size: 24px;
+  background-image: url(https://images.unsplash.com/photo-1559825481-12a05cc00344?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2NlYW58ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 10%;
 }
 
 .get {
@@ -125,15 +129,14 @@ footer ul {
 
 
 @media only screen and (max-width: 600px) {
- .parent {
+  .parent {
    flex-direction: column;
-   grid-template-rows: 300px, 300px, 300px;
-   grid-template-columns: 1fr;
-  grid-template-areas: 
-  "mountain mountain2" 
-   "cococaybeach Haitimountain" 
+   grid-template-rows: 300px, 300px, 300px, 300px, 300px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas: 
+   "mountain mountain2"
+   "cococaybeach Haitimountain"
    "cruiseshipdeck mydog"
    "mycat cruisingship"
-   "shipwindow"
-   ;
- }}
+   "shipwindow shipwindow";
+}}
